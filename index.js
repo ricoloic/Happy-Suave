@@ -1,3 +1,8 @@
+// Coding a Bot with discord.js
+// Discord Bots
+// Loïc Rico
+// https://github.com/ricoloic
+
 require('dotenv').config();
 
 let msg
