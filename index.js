@@ -17,7 +17,7 @@ const client = new Discord.Client();
 const prefix = '?';
 
 // Creating a connection from the bot to the server
-client.login(process.env.discordtoken);
+client.login(process.env.DISCORD_TOKEN);
 
 // Making sure the bot is ready to operate
 client.on('ready', () => {

@@ -1,7 +1,7 @@
 const { sender } = require('./sender');
 
 const Tenor = require('tenorjs').client({
-    "Key": process.env.tenor, // https://tenor.com/developer/keyregistration
+    "Key": process.env.TENOR_TOKEN, // https://tenor.com/developer/keyregistration
     "Filter": "off", // "off", "low", "medium", "high", not case sensitive
     "Locale": "en_US", // Your locale here, case-sensitivity depends on input
     "MediaFilter": "minimal", // either minimal or basic, not case sensitive
