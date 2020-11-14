@@ -13,13 +13,8 @@
   "dependencies": {
     "discord.js": "^12.4.1",
     "dotenv": "^8.2.0",
-    "expression-eval": "^3.1.2",
     "math-expression-evaluator": "^1.2.22",
-    "math.js": "^1.1.46",
     "mathjs": "^8.0.1",
-    "promise": "^8.1.0",
-    "promises": "^0.2.5",
-    "tenorjs": "^1.0.7",
-    "util": "^0.12.3"
+    "tenorjs": "^1.0.7"
   }
 }
