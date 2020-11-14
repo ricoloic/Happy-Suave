@@ -4,7 +4,9 @@
   "description": "This is the creation of a personal discord bot named Happy-Suave, not sure yet about its future but it seem promising!!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "mocha",
+    "postinstall": "bower install && grunt build"
   },
   "author": "LoïcRico",
   "license": "ISC",
