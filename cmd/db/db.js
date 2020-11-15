@@ -11,7 +11,7 @@ const {
     Leads,
     Columns,
     Quotes
-} = require('../../db/mysqlConn');
+} = require('./mysqlConn');
 
 const model = [['users', Users], ['building_details', BuildingDetails], ['buildings', Buildings], ['employees', Employees], ['customers', Customers], ['addresses', Addresses], ['batteries', Batteries], ['elevators', Elevators], ['leads', Leads], ['columns', Columns], ['quotes', Quotes]]
 
