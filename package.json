@@ -13,6 +13,9 @@
     "dotenv": "^8.2.0",
     "math-expression-evaluator": "^1.2.22",
     "mathjs": "^8.0.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5",
+    "sequelize-auto": "^0.7.1",
     "tenorjs": "^1.0.7"
   }
 }

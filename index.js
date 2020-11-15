@@ -10,7 +10,7 @@ const {
     findFunc,
     isMention,
     cmdList
-} = require('./BotCmd/all');
+} = require('./cmd/all');
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
