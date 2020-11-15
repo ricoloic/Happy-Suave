@@ -29,11 +29,13 @@ client.on('message', botRead);
 
 function botRead(message) {
     msg = message;
+    // console.log(msg)
     if (isMention(msg)) {
         cmdList(msg);
     } else if (msg.content.startsWith(prefix)) {
         findFunc(msg);
     };
 };
+
 
 module.exports = msg;

@@ -10,23 +10,25 @@ function findFunc(msg) {
     const command = args.shift().toLowerCase();
     console.log(command, args);
 
-    switch(command) {
-        case 'calc':
-            calc(args, msg);
-            break;
-        case 'gif':
-            gif(args, msg);
-            break;
-        case 'quote':
-            quotes(args[0], msg);
-            break;
-        case 'db':
-            db(args, msg);
-            break;
-        case 'help':
-            cmdList(msg);
-            break;
-    };
+    // if (msg.channel.id == '776953099917983786') {
+        switch(command) {
+            case 'calc':
+                calc(args, msg);
+                break;
+            case 'gif':
+                gif(args, msg);
+                break;
+            case 'quote':
+                quotes(args[0], msg);
+                break;
+            case 'db':
+                db(args, msg);
+                break;
+            case 'help':
+                cmdList(msg);
+                break;
+        };
+    // };
 };
 
 module.exports = { findFunc };
