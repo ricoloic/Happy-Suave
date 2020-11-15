@@ -74,7 +74,7 @@ function prepData(data, tableName, msg) {
     pretty += "```"
     pretty += `Table ${tableName}\n`
     for (i = 0; i < data.length; i++) {
-        pretty += ` ${tableName} ${i + 1}:\n`
+        pretty += ` ${tableName} ${data[i].dataValues.id}:\n`
 
         Object.entries(data[i].dataValues).forEach(([key, val]) => {
             // console.log(key, val);
